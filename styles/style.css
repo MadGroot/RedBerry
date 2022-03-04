@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   background: black;
   background-image: url(../images/stars.png);
+  overflow-y: hidden;
 }
 
 header {
@@ -13,12 +16,23 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+}
+
+h1 {
+  font-family: "Rowdies", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
 }
 
 .welcome {
   padding-top: 70px;
-  color: #FE3B1F;
+  color: #fe3b1f;
   font-size: 90px;
   margin-bottom: 100px;
 }
@@ -38,7 +52,7 @@ header {
 .btn {
   text-align: center;
   padding: 15px 50px;
-  background-color: #FE3B1F;
+  background-color: #fe3b1f;
   border: none;
   border-radius: 30px;
   -webkit-transition: 0.6s ease;
@@ -73,7 +87,16 @@ header {
   font-size: 16px;
 }
 
-.img {
-  padding-left: 150px;
+.image-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.image-holder .img {
+  width: 409px;
 }
 /*# sourceMappingURL=style.css.map */

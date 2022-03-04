@@ -1,66 +1,78 @@
-$color: #FE3B1F;
+// fonts
+@import "fonts.scss";
+
+$color: #fe3b1f;
 @mixin flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
-    background: black;
-    background-image:url(../images/stars.png);
-}    
-header { 
-    @include flexCenter();
-    height: 100vh;
+  background: black;
+  background-image: url(../images/stars.png);
+  overflow-y: hidden;
+}
+header {
+  @include flexCenter();
+  //   height: 100vh; es ra shuashia?
+}
+
+h1 {
+  font-family: "Rowdies", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+}
+button {
+  font-family: "Montserrat", sans-serif;
 }
 .welcome {
-   padding-top: 70px;
-    color: $color;
-    font-size: 90px;
-   margin-bottom: 100px;
-    
+  padding-top: 70px;
+  color: $color;
+  font-size: 90px;
+  margin-bottom: 100px;
 }
 
 // buttons
 
 .butn {
-    @include flexCenter();
+  @include flexCenter();
 }
 
 .btn {
-    text-align: center;
-    padding: 15px 50px;
-    background-color: $color;
-    border: none;
-    border-radius: 30px;
-    transition: 0.6s ease;
-    color: white;
-    font-size: 15px;
+  text-align: center;
+  padding: 15px 50px;
+  background-color: $color;
+  border: none;
+  border-radius: 30px;
+  transition: 0.6s ease;
+  color: white;
+  font-size: 15px;
 }
 
 .btn:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .butn2 {
-    @include flexCenter();
-    
+  @include flexCenter();
 }
 
 .btn2 {
-    text-align: center;
-    background: none;
-    color: white;
-    border: none;
-    text-decoration: underline;
-    font-size: 16px;
+  text-align: center;
+  background: none;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  font-size: 16px;
 }
-
-.img {
-   
-   padding-left: 150px;
+.image-holder {
+  display: flex;
+  justify-content: center;
+  .img {
+    //   padding-left: 150px; rat ginda es da tu mainc da mainc padding rato?
+    width: 409px;
+  }
 }
-
-
-
