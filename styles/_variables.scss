@@ -1,0 +1,18 @@
+// colors
+$black: #000;
+$white: #fff;
+$RedberryRed: #fe3b1f;
+$borderColor: #525557;
+$placeholder: #454545;
+
+// heading sizes
+$heading1: 94px;
+$heading2: 64px;
+
+// item positions
+@mixin flex($display, $direction, $justify, $align) {
+  display: $display;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}

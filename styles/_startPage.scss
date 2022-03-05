@@ -1,0 +1,54 @@
+.MainPage {
+  background-color: $black;
+  background-image: url(../images/stars.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+  //  General position
+  @include flex(flex, column, center, center);
+
+  h1 {
+    color: $RedberryRed;
+    font-size: $heading1;
+    line-height: 119px;
+  }
+
+  //  buttons position
+  .ButtonHolder {
+    @include flex(flex, column, center, center);
+    margin-top: 105px;
+
+    // buttons
+    .PrimaryBtn {
+      width: 395px;
+      height: 79px;
+      background-color: $RedberryRed;
+      color: $white;
+      border-radius: 50px;
+      border: none;
+      font-size: 24px;
+
+      &:hover {
+        background-color: #fe3d1fde;
+      }
+    }
+    .SecondaryBtn {
+      width: 338px;
+      height: 66px;
+      margin-top: 18px;
+      border: none;
+      background-color: transparent;
+      color: $white;
+      text-decoration: underline;
+      font-size: 24px;
+    }
+  }
+
+  //   image
+  .Astronaut {
+    width: 409.92px;
+  }
+}
