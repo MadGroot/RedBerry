@@ -1,0 +1,15 @@
+.PersonalInformation {
+  background-color: rgb(64, 125, 153);
+  height: 100vh;
+  @include SimpleFlex(flex, row);
+  .FormSection {
+    background-color: $white;
+    width: 50vw;
+    height: 100vh;
+  }
+  .InfoSection {
+    background-color: $black;
+    width: 50vw;
+    height: 100vh;
+  }
+}

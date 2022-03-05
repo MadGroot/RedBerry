@@ -16,3 +16,8 @@ $heading2: 64px;
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin SimpleFlex($display, $direction) {
+  display: $display;
+  flex-direction: $direction;
+}
