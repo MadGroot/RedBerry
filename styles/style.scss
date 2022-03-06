@@ -2,11 +2,21 @@
 @import "_fonts";
 @import "_variables";
 @import "_startPage";
+@import "_form";
 @import "_personalInformation";
+
 
 h1,
 h2 {
   font-family: "Rowdies", cursive;
+  color: $RedberryRed;
+}
+
+h1{
+  font-size: $heading1;
+}
+h2{
+  font-size: $heading2;
 }
 
 button {

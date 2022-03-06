@@ -6,10 +6,24 @@
     background-color: $white;
     width: 50vw;
     height: 100vh;
+    @include flex(flex, column, center, center);
   }
   .InfoSection {
     background-color: $black;
     width: 50vw;
     height: 100vh;
+    @include flex(flex, column, center, center);
   }
+
+  // Form Section
+
+//  Info Section
+ h2 {
+  line-height: 79px;
+ }
+ 
+
+
+
 }
+
