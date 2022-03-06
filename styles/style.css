@@ -573,6 +573,15 @@ textarea {
 
 .PersonalInformation h2 {
   line-height: 79px;
+  max-width: 716px;
+}
+
+.PersonalInformation p {
+  color: #fff;
+  max-width: 705px;
+  max-height: 606px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
 }
 
 h1,
@@ -589,7 +598,7 @@ h2 {
   font-size: 64px;
 }
 
-button {
+button, p {
   font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
