@@ -4,6 +4,7 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
 html,
 body,
 div,
@@ -616,6 +617,10 @@ h2 {
 }
 
 button, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
   font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
