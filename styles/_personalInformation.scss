@@ -2,36 +2,46 @@
   background-color: rgb(64, 125, 153);
   height: 100vh;
   @include SimpleFlex(flex, row);
+  h2 {
+    margin-top: 10%;
+  }
   .FormSection {
     background-color: $white;
     width: 50vw;
     height: 100vh;
-    @include flex(flex, column, center, center);
+    @include flex(flex, column, flex-start, center);
   }
   .InfoSection {
     background-color: $black;
     width: 50vw;
     height: 100vh;
-    @include flex(flex, column, center, center);
+    @include flex(flex, column, flex-start, center);
+    h2 {
+      text-align: left;
+      width: 716px;
+    }
   }
 
   // Form Section
 
-//  Info Section
- h2 {
-  line-height: 79px;
-  max-width: 716px;
- }
+  //  Info Section
+  h2 {
+    line-height: 79px;
+    max-width: 716px;
+  }
 
- p {
-   color: $white;
-   max-width: 705px;
-   max-height: 606px;
-   line-height: 48px;
-   letter-spacing: 0.05em;
- }
+  .paragraphWrapper {
+    margin-top: 3px; //ძაან უაზროდაა გაკეთებული დიზაინი
+    display: flex;
+    align-items: center;
+    min-width: 705px;
+    min-height: 606px;
+  }
+  p {
+    color: $white;
 
-
-
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+  }
 }
-

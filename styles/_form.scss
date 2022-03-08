@@ -1,7 +1,28 @@
 .form {
-    @include flex(flex, column, center, center);
-    color: #454545;
-.name {
-    
-}
+  @include flex(flex, column, center, center);
+  color: #454545;
+  margin-top: 126px;
+
+  input {
+    width: 455px;
+    height: 54px;
+    border: 1px solid #525557;
+    margin-top: 35px;
+    &.name {
+      margin-top: 0px;
+    }
+  }
+  input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    padding-left: 57px;
+    padding-top: 17px;
+    font-size: 14px;
+  }
+  .navigation {
+    margin-top: 20%;
+    width: 231px;
+    height: 19px;
+    background-color: red;
+  }
 }
