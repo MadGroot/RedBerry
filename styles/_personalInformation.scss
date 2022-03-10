@@ -39,9 +39,65 @@
   }
   p {
     color: $white;
-
     line-height: 48px;
     letter-spacing: 0.05em;
     font-size: 24px;
   }
 }
+
+// Technical Skillset. Third page !!
+
+.TechnicalSkillset {
+  height: 100vh;
+  @include SimpleFlex(flex, row);
+  h2 {
+    margin-top: 10%;
+    line-height: 79px;
+    max-width: 716px;
+  }
+
+  .FormSection {
+      background-color: $white;
+      width: 50vw;
+      height: 100vh;
+      @include flex(flex, column, flex-start, center);
+  }
+  .InfoSection {
+      background-color: $black;
+      width: 50vw;
+      height: 100vh;
+      @include flex(flex, column, flex-start, center);
+      h2 {
+        text-align: left;
+        
+      }
+  }
+// Info Section
+  .paragraphWrapper {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    min-width: 705px;
+    min-height: 606px;
+  }
+  p {
+    color: $white;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+  }
+// Button 
+  .btn {
+      width: 201px;
+      height: 32px;
+      margin-top: 22px;
+      background-color: $RedberryRed;
+      color: $white;
+      border: none;
+      font-size: 12px;
+
+  }
+}
+
+
+
