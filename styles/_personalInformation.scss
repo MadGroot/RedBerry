@@ -100,4 +100,44 @@
 }
 
 
+.Covid {
+  height: 100vh;
+  @include SimpleFlex(flex, row);
+  h2 {
+    margin-top: 10%;
+    line-height: 79px;
+    max-width: 788px;
+  }
 
+  .FormSection {
+      background-color: $white;
+      width: 50vw;
+      height: 100vh;
+      @include flex(flex, column, flex-start, center);
+  }
+  .InfoSection {
+      background-color: $black;
+      width: 50vw;
+      height: 100vh;
+      @include flex(flex, column, flex-start, center);
+      h2 {
+        text-align: left; 
+      }
+  }
+
+  // InfoSection 
+
+  .paragraphWrapper {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    min-width: 705px;
+    min-height: 606px;
+  }
+  p {
+    color: $white;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    font-size: 24px;  
+  }
+}
