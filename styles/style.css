@@ -839,6 +839,20 @@ textarea {
   font-size: 24px;
 }
 
+.Covid h3 {
+  font-size: 18px;
+  line-height: 22px;
+  width: 645px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 166px;
+}
+
 h1,
 h2 {
   font-family: "Rowdies", cursive;
@@ -856,5 +870,10 @@ h2 {
 button,
 p {
   font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
